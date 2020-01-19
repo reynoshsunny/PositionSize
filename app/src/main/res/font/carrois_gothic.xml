@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Reynosh Sunny on 16/1/20 3:08 AM
+  ~  * reynoshsunny@gmail.com
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 16/1/20 12:56 AM
+  ~  */
+  -->
+
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:fontProviderAuthority="com.google.android.gms.fonts"
+        app:fontProviderPackage="com.google.android.gms"
+        app:fontProviderQuery="Carrois Gothic"
+        app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
+</font-family>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "470479575491",
+    "firebase_url": "https://position-size-calculator-12a74.firebaseio.com",
+    "project_id": "position-size-calculator-12a74",
+    "storage_bucket": "position-size-calculator-12a74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470479575491:android:a1472d600b627d3741c576",
+        "android_client_info": {
+          "package_name": "com.hashloop.positionsize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470479575491-bhbj9mo3nhculih0sn6cviaskosu0ijk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ4IvC4ngoR516WpI7DdlvhMFFRuVWjso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470479575491-bhbj9mo3nhculih0sn6cviaskosu0ijk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

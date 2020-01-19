@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Reynosh Sunny on 16/1/20 3:08 AM
+  ~  * reynoshsunny@gmail.com
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 16/1/20 1:36 AM
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/carrois_gothic"
+            android:text="Quantity"
+            android:textColor="@color/textColour"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtQty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border_edittext"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:text=""
+            android:enabled="false"
+            android:textColor="@color/textWhite" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/carrois_gothic"
+            android:text="Target"
+            android:textColor="@color/textColour"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtTarget"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border_edittext"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColor="@color/textWhite" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/carrois_gothic"
+            android:text="After Loss"
+            android:textColor="@color/textColour"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtStopLoss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border_edittext"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:enabled="false"
+            android:textColor="@color/textWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/carrois_gothic"
+            android:text="Buy Price"
+            android:textColor="@color/textColour"
+            android:textSize="18sp"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtBuyPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border_edittext_active"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColor="@color/textWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/carrois_gothic"
+            android:text="Stop Loss"
+            android:textColor="@color/textColour"
+            android:textSize="18sp"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtStopLossValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border_edittext_active"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColor="@color/textWhite" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Reynosh Sunny on 16/1/20 3:08 AM
+  ~  * reynoshsunny@gmail.com
+  ~  * Copyright (c) 2020 . All rights reserved.
+  ~  * Last modified 15/1/20 11:23 PM
+  ~  */
+  -->
+
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#4185f4</color>
+
+    <color name="textColour">#ffff</color>
+    <color name="textWhite">#ffff</color>
+
+</resources>
